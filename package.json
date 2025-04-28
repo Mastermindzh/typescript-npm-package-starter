@@ -1,6 +1,6 @@
 {
   "name": "typescript-npm-package-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Typescript NPM Package Starter",
   "keywords": [
     "typescript",
@@ -39,7 +39,7 @@
     "typeCheck": "tsc --noEmit"
   },
   "lint-staged": {
-    "*.{js, jsx,ts,tsx}": [
+    "!(ci/**/*)*.{js, jsx,ts,tsx}": [
       "eslint --fix"
     ],
     "*.{json,js,ts,jsx,tsx,html,md}": [
